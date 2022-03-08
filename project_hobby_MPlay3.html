@@ -1,0 +1,115 @@
+<html>
+<head>
+	<link rel="icon" href="TabIcon.png">
+	<title>If on a summer's night a programmer</title>
+</head>
+<body bgcolor="gray" link="#0" vlink="#0" alink="#FFFFFF">
+<font face = "Courier New">
+
+<div id=banner style="background-color: #cfc ; position: absolute; top: 20px; left: 0px; width: 1200px; padding-bottom: 20px; padding-left: 60px"> 
+	<h1>If on a summer's night a programmer...</h1>
+	<div style="padding-right: 40px;text-align: right;">
+		by Tim J. Dierks
+	</div>
+</div>
+
+
+<a href="index.html">
+<div id=home style="background-color: #a1cca1 ; position: absolute; top: 160px; left: 0px; width: 500px; height: 65px; text-align: center">
+	<h1>Hello, Sailor! </h1><br>
+</div>
+</a>
+
+<div id=projects style="background-color: #cfc ; position: absolute; top: 160px; left: 515px; width: 500px; height: 65px; text-align: center">
+	<h1> Projects<br> </h1>
+</div>
+
+<a href="aboutMe.html">
+<div id=projects style="background-color: #a1cca1; position: absolute; top: 160px; left: 1300; width: 200px; height: 65px; text-align: center">
+	<h1> About Me </h1>
+</div>
+</a>
+
+
+
+
+
+
+<div id=projectsBG style="background-color: #cfc ; position: absolute; top: 225px; left: 0px; width: 1480px; height: 2300px; padding-left: 60px;">
+
+
+	<a href="projects.html">
+	<div id=studium style="background-color: #7cf47c ; position: absolute; top: 30px; left: 0px; width: 400px; height: 60px; text-align: center">
+		<h2>Academic projects</h2>
+	</div>
+	</a>
+
+	<div id=hobby style="background-color: #9df29d; position: absolute; top: 30px; left: 415px; width: 400px; height: 60px; text-align: center">
+		<h2>Hobby projects</h2>
+	</div>
+
+
+	<div id=BG style="background-color: #9df29d ; position: absolute; top: 90px; left: 0px; width: 1530px; height: 2200px;">
+
+
+		<a href="project_hobby.html">
+		<div id=AGameADay style="background-color: #225422; position: absolute; top: 30px; left: 0px; width: 200px; height: 60px; text-align: center">
+			<h3>Overview</h3>
+		</div>
+		</a>
+
+		<a href="project_hobby_VRCycle.html">
+		<div style="background-color: #225422; position: absolute; top: 30px; left: 215px; width: 200px; height: 60px; text-align: center">
+			<h3 style="margin-top: 10px">VR-Bicycle Simulation</h3>
+		</div>
+		</a>
+
+
+		<div style="background-color: #398439; position: absolute; top: 30px; left: 430px; width: 200px; height: 60px; text-align: center">
+			<h3>Audio Player</h3>
+		</div>
+
+		<a href="project_hobby_GameADay.html">
+		<div style="background-color: #225422 ; position: absolute; top: 30px; left: 645px; width: 200px; height: 60px; text-align: center">
+			<h3>A game a day</h3>
+		</div>
+		</a>
+
+		<a href="project_hobby_UnityGames.html">
+		<div style="background-color: #225422 ; position: absolute; top: 30px; left: 860px; width: 200px; height: 60px; text-align: center">
+			<h3 style="margin-top: 10px">Unity - Game Prototypes</h3>
+		</div>
+		</a>
+
+		<a href="project_hobby_CPPPrototypes.html">
+		<div style="background-color: #225422 ; position: absolute; top: 30px; left: 1075px; width: 200px; height: 60px; text-align: center;">
+			<h3 style="margin-top: 10px">C/C++ <br>Prototypes</h3>
+		</div>
+		</a>
+
+		<a href="project_hobby_GameJams.html">
+		<div style="background-color: #225422 ; position: absolute; top: 30px; left: 1290px; width: 200px; height: 60px; text-align: center;">
+			<h3>Game Jams</h3>
+		</div>
+		</a>
+
+
+		<div id=BG style="background-color: #398439; position: absolute; top: 90px; left: 0px; width: 1520px; height: 2100px;">
+			<div style="padding-top: 120px; padding-left: 60px; padding-right:250px;">
+				
+				<h1>MPlay3 - Music Player</h1><br><br>
+				<iframe width="1200" height="675" src="https://www.youtube.com/embed/ha9aqBTYRzU"> </iframe><br><br>
+				<h2>
+				After I got my first and only Apple product, the 2nd generation iPod, I started using iTunes as a music player. For quite some time I was happy with it and especially liked the feature that you could have columns for genre, artist, album and songs next to each other. If you wanted to listen to specific genres you could click on those in the corresponding column and the other columns would adjust and display the correct artists, albums and songs that belong to the chosen genres. This obviously worked for the other columns as well. But at some point this feature was destroyed in an update, which prompted me to never update my iTunes again. But as I upgraded to Windows 10 I stopped trying to keep the old version of iTunes, as it was too much of a hassle. From then on I used VLC to play my music, yes I know, but I was annoyed trying to find a replacement and gave up. <br> Then I got the idea to just create my own music player, which seemed feasable as I only have .mp3 files for my music. To make it more interesting I tried to do everything myself. The only libraries that are used in this project is the <a href="https://github.com/nothings/stb">STB_Truetype</a> library and the <a href="https://github.com/lieff/minimp3">MiniMP3</a> library which are both single header-files, but those should be deprecated in the long term as well. The whole prototype is written in, what I call, C+. C+ is C99 with very limited use of C++ features like operator overloading.<br><br> 
+MPlay3 is now also on the handmade network, at <a href="https://handmade.network/p/mplay3/">this</a> location. On there I give a few more details and also the source code linked, if anyone is interested.
+
+				</h2>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+</font>
+</body>
+</html>
