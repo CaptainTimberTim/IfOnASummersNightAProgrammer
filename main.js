@@ -67,19 +67,19 @@ function GetColorForLevel(Level, IsActive)
 	if(Level === 0)
 	{ 
 		if(IsActive)
-			return "#cfc";
-		return "#a1cca1";
+			return "#263422";
+		return "#182818";
 	}
 	else if(Level === 1)
 	{
 		if(IsActive)
-			return "#9df29d";
-		return "#7cf47c";
+			return "#171e14";
+		return "#111811";
 	}
 	else if(Level === 2)
 	{
 		if(IsActive)
-			return "#398439";
-		return "#225422";
+			return "#0d110d";
+		return "#090c09";
 	}
 }

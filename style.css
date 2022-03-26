@@ -1,0 +1,42 @@
+
+html {
+	font-family: Courier New;
+	color: #90ae82;
+}
+
+body {
+    background-color: #333333;
+}
+
+a:link    { color: #90ae82; }
+a:visited { color: #90ae82; }
+a:active  { color: #FFFFFF; }
+
+#projectsBG {
+	background-color: #263422; 
+	position: absolute; 
+	top: 225px; 
+	left: 0px; 
+	width: 1300px; 
+	height: 2300px; 
+	padding-left: 60px; 
+	padding-right: 180px;
+}
+
+#hobbyBG {
+	background-color: #171e14; 
+	position: absolute; 
+	top: 90px; 
+	left: 0px; 
+	width: 1530px; 
+	height: 2200px;
+}
+
+#contentBG {
+	background-color: #0d110d; 
+	position: absolute; 
+	top: 90px; 
+	left: 0px; 
+	width: 1520px; 
+	height: 2100px;
+}

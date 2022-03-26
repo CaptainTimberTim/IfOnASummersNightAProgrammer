@@ -4,7 +4,7 @@ TabDivsString = `
 				<div id=projects></div>
 				<div id=aboutMe></div>`
 
-BannerString = `<div id=innerBanner style="background-color: #cfc ; position: absolute; top: 20px; left: 0px; 
+BannerString = `<div id=innerBanner style="background-color: #263422 ; position: absolute; top: 20px; left: 0px; 
           	      width: 1200px; padding-bottom: 20px; padding-left: 60px"> 
 					<h1>If on a summer's night a programmer...</h1>
 					<div style="padding-right: 40px;text-align: right;">
